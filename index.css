@@ -1,4 +1,3 @@
-/* Reset some default styles for consistency */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -41,5 +40,3 @@ section {
 .project {
     margin-bottom: 20px;
 }
-
-/* Add more CSS styles to customize your portfolio's appearance */
