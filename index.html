@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aryan Portfolio</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    * {
+      padding: 0px;
+      margin: 0px;
+    }
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: "Poppins", sans-serif;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(7, 7, 49);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li a:hover {
+      color: rgb(156, 156, 226);
+      font-size: 1.09rem;
+    }
+    main hr {
+      border: 0px;
+      background-color: #9c97f1;
+      height: 1.2px;
+      margin: 40px 84px;
+    }
+    .left {
+      font-size: 1.8rem;
+    }
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      margin: 60px 0;
+      align-items: center;
+    }
+    .firstsection > div {
+      width: 30%;
+    }
+    .leftsection {
+      font-size: 2.5rem;
+      margin: 120px 0;
+    }
+    .leftsection .btn {
+      padding: 12px;
+      background-color: #2b2867;
+      color: white;
+      border: 2px solid white;
+      border-radius: 12px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .rightsection {
+      width: 80%;
+      margin: 50px 0;
+    }
+    .rightsection img {
+      width: 80%;
+      margin: -10px 0;
+    }
+    .purple {
+      color: rgb(160, 86, 229);
+    }
+    #element {
+      color: rgb(160, 86, 229);
+    }
+    .secondsection {
+      max-width: 80vw;
+      margin: auto;
+      height: 450px;
+    }
+    .secondsection h1 {
+      font-size: 2rem;
+    }
+    .text-gray {
+      color: gray;
+    }
+    .secondsection .box {
+      background-color: white;
+      width: 80vw;
+      height: 1px;
+      margin: 56px 0;
+      display: flex;
+    }
+    .secondsection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0 100px;
+    }
+    .image-top {
+      width: 23px;
+      position: relative;
+      top: -25px;
+      left: -10px;
+    }
+    .vertical-title {
+      position: relative;
+      top: 75px;
+      width: 150px;
+    }
+    .vertical-desc {
+      position: relative;
+      top: 85px;
+      color: gray;
+      width: 138px;
+      font-size: 9px;
+    }
+    footer {
+      background-color: #0d0d2c;
+    }
+    .footer {
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+    .footer ul {
+      list-style: none;
+    }
+    .footer-rights {
+      text-align: center;
+      color: gray;
+      padding: 0 12px;
+    }
+    .thirdsection {
+      display: flex;
+      margin: auto;
+      height: 400px;
+      padding: 0 130px;
+      font-size: 1.2rem;
+    }
+    .thirdsection div {
+      padding: 70px 10px;
+      font-size: 1rem;
+    }
+    footer ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    footer ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    footer ul li a:hover {
+      color: rgb(156, 156, 226);
+      font-size: 1.02rem;
+    }
+    .fourthsection {
+      display: flex;
+      margin: auto;
+      height: 400px;
+      padding: 0 130px;
+      font-size: 1.2rem;
+    }
+    .fourthsection div {
+      padding: 34px 4px;
+      font-size: 1rem;
+    }
+    .fourthsection ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    .fourthsection ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    .fourthsection ul li h2 {
+      position: relative;
+      left: -120px;
+      top: 10px;
+    }
+    .fourthsection ul li div {
+      position: relative;
+      left: -50px;
+    }
+
+    
+  </style>
+
+  <body>
+    <header id="Home">
+      <nav>
+        <div class="left">Aryan sai Boddu</div>
+        <div class="right">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Internships">Internships</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hello, My name <span class="purple">Aryan</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <br />
+          <a href="Img/Resume.pdf" download=""
+            ><button class="btn">Download Resume</button></a
+          >
+          <a href="https://www.github.com/Aryan22145" target="_blank"
+            ><button class="btn">GitHub</button></a
+          >
+        </div>
+        <div class="rightsection">
+          <img src="Img/one.jpg" alt="" />
+        </div>
+      </section>
+
+      <!--End of section one-->
+
+      <hr />
+      <section class="secondsection" id="Projects">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Projects</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="Img/python.jpg" alt="" />
+            <div class="vertical-title"><a href="https://github.com/Aryan22145/Python_Playground" target="_blank" style="text-decoration: none; color: white;">Word Raider</a></div>
+            <div class="vertical-desc">
+              Developed a project that is filled with intriguing word puzzles,
+              where each level presents a unique challenge to test your
+              vocabulary skills and wit.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Img/JavaScript.png" alt="" />
+            <div class="vertical-title"><a href="https://github.com/Aryan22145/Front-End-Projects" target="_blank" style="text-decoration: none; color: white;">Simple Counter</a></div>
+            <div class="vertical-desc">
+              Increment/decrement numerical count with reset option. Lightweight, user-friendly interface. Easily integrate into web projects for tracking scores, quantities, or implementing interactive features.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Img/python.jpg" alt="" />
+            <div class="vertical-title"><a href="https://github.com/Aryan22145/Python_Playground" target="_blank" style="text-decoration: none; color: white;">Programming Quiz</a></div>
+            <div class="vertical-desc">
+              I conceptualized and designed a scalable quiz app architecture,
+              integrating features like user authentication, question
+              generation, scoring, and result tracking. Continuously improved
+              based on feedback.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Img/web.png" alt="" />
+            <div class="vertical-title"><a href="https://github.com/Aryan22145/Front-End-Projects" target="_blank" style="text-decoration: none; color: white;">Payment Gateway Integration</a></div>
+            <div class="vertical-desc">
+              Led charity website dev with HTML, CSS, JS. Integrated Razorpay
+              for secure payments, Python backend. Scalable, tested for
+              reliability, impact.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="Img/sql.png" alt="" />
+            <div class="vertical-title"><a href="https://github.com/Aryan22145/Social-Media-Analysis" target="_blank" style="text-decoration: none; color: white;">Social Media Analysis</a></div>
+            <div class="vertical-desc">
+              Utilize SQL to analyze social media data from platforms like
+              Instagram to uncover user behavior, trending topics, and
+              engagement metrics.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--End of section two-->
+
+      <hr />
+      <section class="fourthsection" id="Internships">
+        <h1>Internships</h1>
+        <div>
+          <ul>
+            <li>
+              <h2>The Sparks Foundation</h2>
+            </li>
+            <div>
+              I spearheaded the development of a charitable donation website,
+              utilizing HTML, CSS, and JavaScript. The integration of the
+              Razorpay API guaranteed secure payment processing. Collaborating
+              on system architecture and database schema, we crafted a scalable
+              platform capable of handling thousands of transactions daily.
+              Python backend logic ensured reliability, while rigorous testing
+              bolstered stability and user satisfaction, ultimately fostering
+              trust and making a significant social impact.
+            </div>
+
+            <li>
+              <h2>Bharat Intern</h2>
+            </li>
+            <div>
+              I developed a temperature converter tool, allowing seamless
+              conversion between Celsius and Fahrenheit scales. Utilizing HTML,
+              CSS, and JavaScript, the user-friendly interface ensures intuitive
+              operation. Through collaborative efforts, we refined the system
+              for optimal efficiency. The tool offers accurate conversions,
+              enhancing user experience and functionality.
+            </div>
+          </ul>
+        </div>
+      </section>
+
+      <!--End of section Four-->
+
+      <hr />
+      <section class="thirdsection" id="About">
+        <h1 class="About">About</h1>
+        <br />
+        <br />
+        <div>
+          I am a third-year computer science student at Guru Nanak Institutions,
+          Hyderabad, where I am learning the fundamentals of programming, data
+          structures, algorithms, and SQL. I have also completed multiple
+          certifications from prestigious institutions and companies, such as
+          Harvard University, Goldman Sachs, and JP Morgan Chase. I have gained
+          hands-on experience in web development through two internships at
+          Bharat Intern and The Sparks Foundation, where I worked on various
+          projects using Python, Java, and JavaScript. I am always in awe of the
+          change that technology drives in the world, and I am determined to
+          learn new skills and tools to create impactful web applications. My
+          goal is to become a proficient web developer and contribute to the
+          digital transformation of society.
+        </div>
+      </section>
+
+      <!--End of section Three-->
+    </main>
+    <footer id="Contact">
+      <div class="footer">
+        <div class="first">
+          <h3 style="position: relative; left: -30px">Aryan's Portfolio</h3>
+        </div>
+        <div class="second">
+          <ul>
+            <br />
+            <br />
+            <li>
+              <a href="https://www.linkedin.com/in/aryan3454/" target="_blank"
+                >LinkedIN</a
+              >
+            </li>
+            <br />
+            <li>
+              <a href="mailto:aryansaiboddu@gmail.com" target="_blank">Mail</a>
+            </li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <br />
+            <br />
+            <li>
+              <a href="https://leetcode.com/Aryan_sai/" target="_blank"
+                >Leetcode</a
+              >
+            </li>
+            <br />
+            <li>
+              <a href="https://twitter.com/aryansaiboddu" target="_blank"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="fourth">
+          <ul>
+            <br />
+            <br />
+            <li>
+              <a
+                href="https://www.hackerrank.com/profile/aryansaiboddu4"
+                target="_blank"
+                >Hacker Rank</a
+              >
+            </li>
+            <br />
+            <li>
+              <a href="https://www.instagram.com/_r_n_0007" target="_blank"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        &copy;Aryan's Portfolio | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Devoloper", "Software Engineer"],
+        typeSpeed: 50,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
